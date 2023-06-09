@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'ns';
+    src: url('../fonts/ns.eot?r3u70l');
+    src: url('../fonts/ns.eot?r3u70l#iefix') format('embedded-opentype'), url('../fonts/ns.ttf?r3u70l') format('truetype'), url('../fonts/ns.woff?r3u70l') format('woff'), url('../fonts/ns.svg?r3u70l#ns') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'ns' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu_show:before {
+    content: "\e904";
+}
+
+.icon-menu_hide:before {
+    content: "\e907";
+}
+
+.icon-indicator_arrow:before {
+    content: "\e901";
+}
+
+.icon-select_downarrow:before {
+    content: "\e902";
+}
+
+.icon-dashboard-icon:before {
+    content: "\e905";
+}
+
+.icon-data_icon:before {
+    content: "\e906";
+}
+
+.icon-details-icon:before {
+    content: "\e908";
+}
+
+.icon-home-icon:before {
+    content: "\e909";
+}
+
+.icon-menu-logo:before {
+    content: "\e90a";
+}
+
+.icon-profile:before {
+    content: "\e903";
+}
+
+.icon-shape:before {
+    content: "\e900";
+}
